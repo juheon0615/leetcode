@@ -1,42 +1,38 @@
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
+        nums = {}
         ret = 0
-        
-        people.sort()
-        people.reverse()
-        cnts = {}
-        
-        for p in people:
-            if p not in cnts:
-                cnts[p] = 0            
-            cnts[p] += 1
 
         for p in people:
-            if cnts[p] == 0:
+            if p not in nums:
+                nums[p] = 0
+            nums[p] += 1
+        
+        
+        people.sort(reverse=True)
+        
+        
+        for p in people:
+            if nums[p] == 0:
                 continue
-                
-            cnts[p] -= 1
-                
-            r = limit - p
             
-            if r == 0:
-                ret += 1
-                continue
+            nums[p] -= 1
             
-            paired = False
-            while r > 0:
-                if r in cnts and cnts[r] > 0:
-                    cnts[r] -= 1
-                    ret += 1
-                    paired = True
+            diff = limit - p
+            
+            while diff > 0:
+                if diff in nums and nums[diff] > 0:
+                    nums[diff] -= 1
                     break
                 else:
-                    r -= 1
+                    diff -= 1
             
-            if not paired:
-                ret += 1
+            ret += 1
         
-            
         return ret
+            
+    
+        
+        
         
         
