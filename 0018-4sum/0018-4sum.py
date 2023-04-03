@@ -17,7 +17,7 @@ class Solution:
                             ret.append([nums[i],  nums[j], nums[l], nums[r]])
                             combs.add(comb)
                         l += 1
-                        r -+ 1
+                        r -= 1
                     elif s < target:
                         l += 1
                     else:
