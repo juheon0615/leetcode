@@ -13,8 +13,8 @@ class Solution:
             aOnly = cntA[v] - cntSame[v]
             bOnly = cntB[v] - cntSame[v]
             
-            if cntA[v] + cntB[v] - cntSame[v] == len(tops):
-                minSwap = min(cntA[v], cntB[v]) - cntSame[v]
+            if aOnly + bOnly + cntSame[v] == len(tops):
+                minSwap = min(aOnly, bOnly)
                 ans = min(ans, minSwap)
                 
         return -1 if ans == len(tops) else ans
