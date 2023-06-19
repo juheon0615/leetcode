@@ -7,25 +7,25 @@ class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
         def reverse(node, prev):
-            if node.next is None:
-                return node
+            if node is None:
+                return prev
             else:
                 temp = node.next
                 node.next = prev
                 return reverse(temp, node)
         
+        return reverse(head, None)
         
+#         cur = head
+#         prev = None
         
-        cur = head
-        prev = None
+#         while cur:
+#             temp = cur.next
+#             cur.next = prev
+#             prev = cur
+#             cur = temp
         
-        while cur:
-            temp = cur.next
-            cur.next = prev
-            prev = cur
-            cur = temp
-        
-        ret = prev
-        return ret
+#         ret = prev
+#         return node
         
         
