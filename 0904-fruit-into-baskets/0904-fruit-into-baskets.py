@@ -11,7 +11,7 @@ class Solution:
                 cnts[fruit] = 0
             
             cnts[fruit] += 1
-            print(cnts)
+            # print(cnts)
             
             while len(cnts) > 2:
                 f = fruits[left]
