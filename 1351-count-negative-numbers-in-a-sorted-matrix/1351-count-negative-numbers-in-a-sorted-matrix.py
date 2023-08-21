@@ -1,6 +1,6 @@
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
-        ret = []
+        ret = 0
         m = len(grid)
         n = len(grid[0])
         
@@ -8,12 +8,13 @@ class Solution:
         # move down until not pos
         
         def negs(i, j):
-            print(i, " : ", j)
+            nonlocal ret
+            
             if j > 0 and grid[i][j-1] < 0:
-                ret.append(1)
+                ret += 1
                 negs(i,j-1)
             elif i < m - 1 and grid[i+1][j]:
-                ret.append(n - j)
+                ret += n - j
                 negs(i + 1, j)
         
         si = None
@@ -26,11 +27,10 @@ class Solution:
                 break
         
         if si is not None and sj is not None:
-            ret.append(1)
+            ret += 1
             negs(si,sj)
         
-        print(ret)
-        return sum(ret)
+        return ret
                  
         
         
