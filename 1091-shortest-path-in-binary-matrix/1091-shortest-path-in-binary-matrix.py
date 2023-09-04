@@ -17,7 +17,7 @@ class Solution:
         
         while q:
             nextQ = []
-            print(q)
+            # print(q)
             while q:
                 i, j = q.pop(0)
                 
