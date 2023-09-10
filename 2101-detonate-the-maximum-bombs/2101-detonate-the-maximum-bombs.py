@@ -18,9 +18,7 @@ class Solution:
         
 
         ret = 0
-        for i in range(len(bombs)):
-            print("for ", i)
-            
+        for i in range(len(bombs)):            
             def dfs(bomb):
                 d = 1
                 for k in range(len(bombs)):
@@ -31,9 +29,7 @@ class Solution:
             
             visited = set()
             visited.add(i)
-            ret = max(ret, dfs(bombs[i]))
-            print(ret, " : " ,visited)
-        
+            ret = max(ret, dfs(bombs[i]))        
         return ret
                         
             
