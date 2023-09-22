@@ -12,7 +12,7 @@ class Solution:
                 cur_sum = 0 
                 ans = i + 1
         
-        print(total_sum)
+        # print(total_sum)
         return ans if total_sum >= 0 else -1
         
             
