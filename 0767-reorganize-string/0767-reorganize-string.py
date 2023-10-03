@@ -5,7 +5,7 @@ class Solution:
         
         heapq.heapify(hq)
         
-        print(hq)
+        # print(hq)
         
         ret = ""
         last_cnt = 0
