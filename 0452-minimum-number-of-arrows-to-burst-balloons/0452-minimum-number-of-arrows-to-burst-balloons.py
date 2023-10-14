@@ -1,9 +1,9 @@
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         
-        merged = []
+        # merged = []
         points.sort(key=lambda x:x[0])
-        
+        ret = 1
         curLeft = points[0][0]
         curRight = points[0][1]
         
@@ -16,10 +16,11 @@ class Solution:
                 curLeft = max(curLeft,x1)
                 curRight = min(curRight,x2)
             else:
-                merged.append([curLeft, curRight])
+                # merged.append([curLeft, curRight])
                 curLeft = x1
                 curRight = x2
-        merged.append([curLeft, curRight])
-        print(merged)
-        return len(merged)
-        
+                ret += 1
+        # merged.append([curLeft, curRight])
+        # print(merged)
+        # return len(merged)
+        return ret        
