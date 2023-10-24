@@ -1,39 +1,34 @@
 class Solution:
-    def bestClosingTime(self, customers: str) -> int:        
-        # penalty closing at i = i-1th open + ith close 
-        # penalty closing at i = pOpen_i-1 + pClose_i
+    def bestClosingTime(self, customers: str) -> int:
+        Y = 0
+        for c in customers:
+            if c == "Y":
+                Y += 1
         
-        # need to create pOpen and pClose
         
-        n = len(customers)
-        opens = [0 for _ in range(n + 1)]
-        closes = [0 for _ in range(n + 1)]
+        N = 0
         
-        for i in range(n - 1, -1, -1):
-            if customers[i] == "Y":
-                closes[i] += 1
-            closes[i] += closes[i+1]
-        
-        for i in range(n):
-            if customers[i] == "N":
-                opens[i] += 1
-            if i > 0:
-                opens[i] += opens[i-1]
-        
-        print(opens)
-        print(closes)
         ret = 0
-        minP = closes[0]
+        minP = Y - N 
         
-        for i in range(n):
-            p = opens[i] + closes[i+1]
+        for i, c in enumerate(customers):
+            p = Y + N 
             
+            # print(i , " : ", p)
             if p < minP:
-                ret = i + 1
+                ret = i
                 minP = p
-            
-        return ret
+                
+            if c == "N":
+                N += 1
+            else:
+                Y -= 1
         
+        p = Y + N 
+        if p < minP:
+            ret = len(customers)
+            minP = p
+        return ret
         
     
 
