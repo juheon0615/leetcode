@@ -36,7 +36,7 @@ class Solution:
             if start not in notEnclosed:
                 m,n = start
                 dfs(m,n)
-        print(notEnclosed)
+        # print(notEnclosed)
 
         return lands - len(notEnclosed)
             
