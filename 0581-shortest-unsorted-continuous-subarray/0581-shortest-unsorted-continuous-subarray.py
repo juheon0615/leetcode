@@ -48,8 +48,8 @@ class Solution:
             rangeMin = min(rangeMin, um)
     
             
-        print(unsorteds)
-        print(start," : ", end, " : ", rangeMin)
+        # print(unsorteds)
+        # print(start," : ", end, " : ", rangeMin)
         
         for i in range(0, start):
             if nums[i] > rangeMin:
