@@ -12,18 +12,15 @@ class Solution:
         result = -1
         
         while left <= right:
-            num = (right + left) // 2
+            num = left + (right - left) // 2
             result = guess(num)
             
             if result == 0:
                 return num
             elif result > 0:
-                if num == left:
-                    left += 1
-                else:
-                    left = num
+                left = num + 1
             else:
-                right = num
+                right = num - 1
         
         return -1
                 
