@@ -1,30 +1,26 @@
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         
+        ret = []
         
-        begin = None
-        end = None
-        merged = []
-        intervals.append(newInterval)
-        intervals.sort(key=lambda x:x[0])
-        print(intervals)
+        s = newInterval[0]
+        e = newInterval[1]
         
-        for interval in intervals:
-            if begin is None:
-                begin = interval[0]
-                end = interval[1]
-            else:
-                if end < interval[0]:
-                    merged.append([begin,end])
-                    begin = interval[0]
-                    end = interval[1]
+        for interval in intervals:            
+            if s is not None and e is not None:
+                if interval[1] < s:
+                    ret.append(interval)
+                elif interval[0] > e:                    
+                    ret.append([s,e])
+                    ret.append(interval)
+                    s = e = None
                 else:
-                    end = max(end, interval[1])
+                    s = min(s, interval[0])
+                    e = max(e, interval[1])
+            else:
+                ret.append(interval)
         
-        if begin is not None:
-            merged.append([begin,end])
+        if s is not None and e is not None:
+            ret.append([s,e])
         
-                
-        
-        
-        return merged
+        return ret
