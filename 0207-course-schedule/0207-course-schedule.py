@@ -1,40 +1,62 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         
+        '''
+        make dict of edges
+        make dict of pre req counts for each class
+        make visited set
+        bfs on classes
+        '''
         
-        pr = {}        
+        edges = {}
+        reqCounts = {}
+        
+        
         for prerequisite in prerequisites:
-            src, dst = prerequisite
+            a = prerequisite[0]
+            b = prerequisite[1]
             
-            if dst not in pr:
-                pr[dst] = []
+            if a not in edges:
+                edges[a] = []
             
-            pr[dst].append(src)
+            if b not in edges[a]:
+                edges[a].append(b)
+            
+            if a not in reqCounts:
+                reqCounts[a] = 0
+            
+            if b not in reqCounts:
+                reqCounts[b] = 0
+            reqCounts[b] += 1
+            
         
+        # print(edges)
+        # print(reqCounts)
+        
+        q = []
         visited = set()
-        updated = True
-        while updated:
-            updated = False
-            for i in range(numCourses):
-                if i in visited:
-                    continue
-                
-                if i in pr and len(pr[i]) > 0:
-                    canTake = True
-                    for j in pr[i]:
-                        if j not in visited:
-                            canTake = False
-                            break
-                    if canTake:
-                        visited.add(i)
-                        updated = True
-                else:
-                    visited.add(i)
-                    updated = True
-        return True if len(visited) >= numCourses else False
-                
-                
+
+        for rc in reqCounts:
+            if reqCounts[rc] == 0:
+                q.append(rc)
+                visited.add(rc)
+        
+        while q:
+            nextQ = []
+            for a in q:
+                for b in edges[a]:
+                    if reqCounts[b] > 0:
+                        reqCounts[b] -= 1
+                    if reqCounts[b] == 0 and b not in visited and b in edges:
+                        visited.add(b)
+                        nextQ.append(b)
+            q = nextQ
+        
+        ret = True
+        
+        for req in reqCounts:
+            if reqCounts[req] > 0:
+                ret = False
+        return ret
             
             
-        
-        
