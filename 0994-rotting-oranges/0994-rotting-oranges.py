@@ -1,62 +1,50 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         
+        moves = [[1, 0], [-1, 0], [0, 1], [0, -1]]
         
-        # bfs then iterate
+        M = len(grid)
+        N = len(grid[0])
+        rottens = []
+        visited = set()
         
-        m = len(grid)
-        n = len(grid[0])
         
-        q = []
-        visited = [[False for _ in range(n)] for __ in range(m)]
-
-        for i in range(m):
-            for j in range(n):
-                if grid[i][j] == 2:
-                    q.append((i,j))
+        for m in range(M):
+            for n in range(N):
+                if grid[m][n] == 2:
+                    rottens.append([m, n])
+                    visited.add((m,n))
         
-        mins = 0
-
-        while q:
-            nextQ = []
-            while q:
-                i, j = q.pop(0)
-                                
-                # up
-                if i > 0 and visited[i-1][j] == False and grid[i-1][j] == 1:
-                    nextQ.append((i-1, j))
-                    grid[i-1][j] = 2
-
-                # down
-                if i < m -1 and visited[i+1][j] == False and grid[i+1][j] == 1:
-                    nextQ.append((i+1, j))
-                    grid[i+1][j] = 2
-                # left
-                if j > 0 and visited[i][j-1] == False and grid[i][j-1] == 1:
-                    nextQ.append((i, j-1))
-                    grid[i][j-1] = 2
-
+        ret = 0
+        while rottens:
+            # print(rottens)
+            q = []
+            for rotten in rottens:
+                m, n = rotten
+                
+                for move in moves:
+                    mm = m + move[0]
+                    nn = n + move[1]
                     
-                # right
-                if j < n - 1 and visited[i][j+1] == False and grid[i][j+1] == 1:
-                    nextQ.append((i, j+1))
-                    grid[i][j+1] = 2
-                    
-            q = nextQ
-            if nextQ:
-                mins += 1
-
+                    if 0 <= mm < M and 0 <= nn < N and grid[mm][nn] == 1 and (mm,nn) not in visited:
+                        q.append([mm,nn])
+                        visited.add((mm,nn))
+                        grid[mm][nn] = 2
+            rottens = q
+            if len(rottens) > 0:
+                ret += 1
         
-        ret = mins
-        
-        for row in grid:
-            for cell in row:
-                if cell == 1:
+        # print(grid)
+        for m in range(M):
+            for n in range(N):
+                if grid[m][n] == 1:
                     ret = -1
-                    break
         
         return ret
-
+        
+        
                 
-                
+        
+        
+        
         
