@@ -1,15 +1,15 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        
-        
         '''
-        if nums[l] <= nums[r]: normal bsearch
-        if nums[mid] <= nums[r]: normal bsearch
-        if nums[mid] > nums[r]: pivot in [mid:r]
-        if nums[mid] >= nums[l]: normal bsearch
-        if nums[mid] < nums[l]: pivot in [l:mid]
+        case left < right no pivot between left and right
+        - if mid == target return mid
+        - if mid > target search(left, mid - 1) else serach(mid + 1, right)
         
-        
+        case left > right pivot between left and right 5, 6, 1, 2, 3, 4
+        - if mid == target return
+        - if mid < target and less than right serach(mid + 1, right)
+        - if mid < target and greater than right serach(left, mid - 1)
+        - if mid > target and mid - 1 and left
         '''
         
         
@@ -32,6 +32,4 @@ class Solution:
                 else:
                     return bsearch(left, mid-1, nums, target)
         
-        return bsearch(0, len(nums)-1, nums, target)
-        
-        
+        return bsearch(0, len(nums)-1, nums, target)        
