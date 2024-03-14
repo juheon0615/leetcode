@@ -1,21 +1,20 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         
-        ret = []
-        n = len(nums)
-        def dfs(cur, nums):
-            # print(cur, " : ", nums)
-            if len(cur) == n:
-                ret.append(cur)
+        ans = []
+        def backtrack(curs):
+            if len(curs) == len(nums):
+                ans.append(curs[:])
                 return
             
+            for num in nums:
+                if num not in curs:
+                    curs.append(num)
+                    backtrack(curs)
+                    curs.pop()
             
-            for i, num in enumerate(nums):
-                dfs(cur[:] + [num], nums[:i] + nums[i+1:])
-            
-        dfs([],nums)
-        
-        return ret
+        backtrack([])
+        return ans
                 
                 
                 
