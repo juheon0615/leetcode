@@ -1,23 +1,24 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         
-        def dp(cur, words, mem):
-            if cur in mem:
-                return mem[cur]
-            
-            if cur == "":
-                return True
-            
-            ret = False
-            for word in words:
-                if len(cur) >= len(word) and cur[:len(word)] == word:
-                    ret = ret or dp(cur[len(word):], words, mem)
-            
-            mem[cur] = ret
-            
-            return mem[cur]
+        queue = [0]
+        visited = set()
         
-        mem = {}
         
-        return dp(s, wordDict, mem)
-    
+        while queue:
+            nextQ = []
+            
+            for cur in queue:
+                if cur == len(s):
+                    return True
+                for word in wordDict:
+                    end = len(word) + cur
+                    # print("%d %d %s" %(cur,end,word))
+                    if end <= len(s) and s[cur:end] == word and end not in visited:
+                        visited.add(end)
+                        nextQ.append(end)
+                # print(nextQ)
+            queue = nextQ
+                
+
+        return False
