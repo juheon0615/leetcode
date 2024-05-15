@@ -1,31 +1,35 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        #parse number
         
-        num = ""
-        s = s.lstrip(" ")
-        hasSign = False
-        hasNumber = False
-        for c in s:
-            if c.isnumeric():
-                num += c
-                hasNumber = True
-            elif (c == "-" or c == "+") and hasNumber == False and hasSign == False:
-                hasSign = True
-                num += c
+        integerString = ""
+        hasDigit = False
+        for ch in s:
+            if ch.isnumeric():
+                integerString += ch
+                hasDigit = True
+            elif ch == "-" or ch == "+":
+                if hasDigit == False:
+                    integerString += ch
+                    hasDigit = True
+                else:
+                    break
             else:
-                break
+                if hasDigit == False and ch == " ":
+                    continue
+                else:
+                    break
         
-        if hasNumber == False:
-            num = "0"
+        ret = 0
+        if integerString != "-" and integerString != "+" and integerString != "":
+            ret = int(integerString)
         
-        ret = int(num)
+        ret = pow(2,31) - 1 if ret > pow(2,31) - 1 else ret
+        ret = -pow(2,31) if ret < -pow(2,31) else ret
+
         
         
-        if ret > pow(2,31) - 1:
-            ret = pow(2,31) - 1
-        
-        if ret < pow(-2,31):
-            ret = pow(-2,31)
+        return 0 if ret == "" else int(ret)
             
-        return ret
+            
+        
+        
