@@ -4,31 +4,43 @@
 #         self.val = val
 #         self.next = next
 class Solution:
+    
+    class Entry:
+        def __init__(self, val, node):
+            self.val = val
+            self.node = node
+
+        def __lt__(self, other):
+            return self.val < other.val
+
+        def __repr__(self):
+            return f"PriorityTask({self.val})"
+    
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
+        heap = []
+
+        heapq.heapify(heap)
         
-        nodes = [] 
-        head = None
         
         for l in lists:
-            if l is not None:
-                cur = l
-                while cur:
-                    nodes.append(cur)
-                    cur = cur.next
+            cur = l
+            while cur:
+                heapq.heappush(heap, Solution.Entry(cur.val, cur))
+                cur = cur.next
         
         
-        nodes.sort(key=lambda x:x.val)
-        
-        for i in range(len(nodes)):
-            if i == len(nodes) - 1:
-                nodes[i].next = None
+        prev = head = None
+
+        while len(heap) > 0:
+            cur = heapq.heappop(heap)
+            if head is None:
+                head = cur
             else:
-                nodes[i].next = nodes[i+1]
-                                
+                prev.next = cur
+            
+            prev = cur
         
-        if len(nodes) > 0:
-            head = nodes[0]
-        
+        if prev is not None:
+            prev.next = None
+
         return head
-                
-                
