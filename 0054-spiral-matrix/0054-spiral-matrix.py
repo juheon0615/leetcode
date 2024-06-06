@@ -1,51 +1,44 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        ret = []
-        
-        i = 0
-        j = 0
-        m = len(matrix)
-        n = len(matrix[0])
-        
-        visited = [[False for _ in range(n)] for __ in range(m)]
-        
-        direction = 0
-        
-        while len(ret) != (m*n):                
-            if direction == 0:
-                ret.append(matrix[i][j])
-                visited[i][j] = True
-                if j == (n-1) or visited[i][j+1]:
-                    direction = 1
-                    i += 1
-                else:
-                    j += 1
-                
-            elif direction == 1:
-                ret.append(matrix[i][j])
-                visited[i][j] = True
-                if i == m - 1 or visited[i+1][j]:
-                    direction = 2
-                    j -= 1
-                else:
-                    i += 1
-            elif direction == 2:
-                ret.append(matrix[i][j])
-                visited[i][j] = True
-                if j == 0 or visited[i][j - 1]:
-                    direction = 3
-                    i -= 1
-                else:
-                    j -= 1
-            else:
-                ret.append(matrix[i][j])
-                visited[i][j] = True
-                if i == 0 or visited[i-1][j]:
-                    direction = 0
-                    j += 1
-                else:
-                    i -= 1
-            
-        
-        return ret
-        
+        VISITED = 101
+        rows, columns = len(matrix), len(matrix[0])
+        # Four directions that we will move: right, down, left, up.
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+        # Initial direction: moving right.
+        current_direction = 0
+        # The number of times we change the direction.
+        change_direction = 0
+        # Current place that we are at is (row, col).
+        # row is the row index; col is the column index.
+        row = col = 0
+        # Store the first element and mark it as visited.
+        result = [matrix[0][0]]
+        matrix[0][0] = VISITED
+
+        while change_direction < 2:
+
+            while True:
+                # Calculate the next place that we will move to.
+                next_row = row + directions[current_direction][0]
+                next_col = col + directions[current_direction][1]
+
+                # Break if the next step is out of bounds.
+                if not (0 <= next_row < rows and 0 <= next_col < columns):
+                    break
+                # Break if the next step is on a visited cell.
+                if matrix[next_row][next_col] == VISITED:
+                    break
+
+                # Reset this to 0 since we did not break and change the direction.
+                change_direction = 0
+                # Update our current position to the next step.
+                row, col = next_row, next_col
+                result.append(matrix[row][col])
+                matrix[row][col] = VISITED
+
+            # Change our direction.
+            current_direction = (current_direction + 1) % 4
+            # Increment change_direction because we changed our direction.
+            change_direction += 1
+
+        return result
