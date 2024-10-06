@@ -1,24 +1,16 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        
-        splits = s.split(" ")
-        words = []
-        
-        for i in range(len(splits)):
-            stripped = splits[i].strip()
-            
-            if stripped != "":
-                words.append(stripped)
-        
+        s = s.strip()
         ret = ""
-        
-        # print(words)
-        for i in range(len(words) - 1, -1, -1):
-            if words[i] == "":
-                continue
-            ret += words[i]
-            if i > 0:
-                ret += " "
+        words = s.split(" ")
+        words = words[::-1]
+
+        for i, word in enumerate(words):
+            stripped = word.strip()
+            if len(stripped) > 0:
+                ret += stripped
+                if i != len(words) - 1:
+                    ret += " "
         
         return ret
         
