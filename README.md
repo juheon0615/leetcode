@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Array
 |  |
 | ------- |
@@ -31,4 +32,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+## Stack
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
+## Simulation
+|  |
+| ------- |
+| [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 <!---LeetCode Topics End-->
