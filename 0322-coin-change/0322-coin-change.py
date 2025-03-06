@@ -3,9 +3,9 @@ class Solution:
         dp = [None for _ in range(amount+1)]
         dp[0] = 0
         
-        for i in range(amount+1):
-            for coin in coins:
-                if coin <= i and dp[i - coin] is not None:
+        for coin in coins:
+            for i in range(coin, amount+1):
+                if dp[i - coin] is not None:
                     dp[i] = dp[i-coin] + 1 if dp[i] is None else min(dp[i], dp[i-coin] + 1)
         
         return dp[amount] if dp[amount] is not None else -1
