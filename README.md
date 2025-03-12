@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/juheon0615/leetcode/tree/master/0011-container-with-most-water) |
+| [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/juheon0615/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/juheon0615/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/juheon0615/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
 ## Design
@@ -80,4 +82,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
+## Matrix
+|  |
+| ------- |
+| [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
 <!---LeetCode Topics End-->
