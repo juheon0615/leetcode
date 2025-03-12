@@ -1,26 +1,16 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
+
+        for i in range(len(triangle)):
+            for j in range(len(triangle[i])):
+                if i > 0:
+                    if j == 0:
+                        triangle[i][j] += triangle[i-1][j]
+                    elif j == len(triangle[i])-1:
+                        triangle[i][j] += triangle[i-1][j-1]
+                    else:
+                        triangle[i][j] += min(triangle[i-1][j], triangle[i-1][j-1])
         
-        for r, row in enumerate(triangle):
-            if r == 0:
-                continue
-            
-            for i, num in enumerate(row):
-                if i == 0:
-                    row[i] += triangle[r-1][0]
-                elif i == len(row) - 1:
-                    row[i] += triangle[r-1][-1]
-                else:
-                    row[i] += min(triangle[r-1][i-1], triangle[r-1][i])
-            
-        ret = None
-        
-        for i, num in enumerate(triangle[-1]):
-            if i == 0:
-                ret = num
-            else:
-                ret = min(ret, num)
-        
-        return ret
-            
+        return min(triangle[-1])
+
         
