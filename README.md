@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Sorting
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/juheon0615/leetcode/tree/master/0155-min-stack) |
 ## Math
 |  |
@@ -98,4 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/juheon0615/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
