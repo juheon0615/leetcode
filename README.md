@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/juheon0615/leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/juheon0615/leetcode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/juheon0615/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/juheon0615/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/juheon0615/leetcode/tree/master/0011-container-with-most-water) |
+| [0055-jump-game](https://github.com/juheon0615/leetcode/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/juheon0615/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
 ## Hash Table
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/juheon0615/leetcode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/juheon0615/leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/juheon0615/leetcode/tree/master/0064-minimum-path-sum) |
 | [0120-triangle](https://github.com/juheon0615/leetcode/tree/master/0120-triangle) |
