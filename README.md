@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/juheon0615/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0198-house-robber](https://github.com/juheon0615/leetcode/tree/master/0198-house-robber) |
+| [0238-product-of-array-except-self](https://github.com/juheon0615/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0256-paint-house](https://github.com/juheon0615/leetcode/tree/master/0256-paint-house) |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
@@ -131,4 +132,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/juheon0615/leetcode/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
