@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -52,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Breadth-First Search
