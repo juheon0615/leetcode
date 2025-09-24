@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/juheon0615/leetcode/tree/master/0011-container-with-most-water) |
+| [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/juheon0615/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/juheon0615/leetcode/tree/master/0011-container-with-most-water) |
+| [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/juheon0615/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/juheon0615/leetcode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/juheon0615/leetcode/tree/master/0063-unique-paths-ii) |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/juheon0615/leetcode/tree/master/0155-min-stack) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -90,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/juheon0615/leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/juheon0615/leetcode/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/juheon0615/leetcode/tree/master/0063-unique-paths-ii) |
@@ -140,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/juheon0615/leetcode/tree/master/0238-product-of-array-except-self) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
