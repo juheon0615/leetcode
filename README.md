@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0006-zigzag-conversion](https://github.com/juheon0615/leetcode/tree/master/0006-zigzag-conversion) |
 | [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/juheon0615/leetcode/tree/master/0014-longest-common-prefix) |
 | [0058-length-of-last-word](https://github.com/juheon0615/leetcode/tree/master/0058-length-of-last-word) |
