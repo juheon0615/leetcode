@@ -1,16 +1,11 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
-        s = s.strip()
-        ret = ""
-        words = s.split(" ")
-        words = words[::-1]
-
-        for i, word in enumerate(words):
+        words = s.split()
+        words.reverse()
+        strippedWords = []
+        for word in words:
             stripped = word.strip()
             if len(stripped) > 0:
-                ret += stripped
-                if i != len(words) - 1:
-                    ret += " "
+                strippedWords.append(stripped)
         
-        return ret
-        
+        return " ".join(strippedWords)
