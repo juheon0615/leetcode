@@ -1,32 +1,24 @@
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
-        rows = ["" for _ in range(numRows)]
-        cur = 0
-        zigUp = False
-        for c in s:
-            rows[cur] += c
-            
-            if numRows == 1:
-                continue
-            
-            if zigUp:
-                if cur == 0:
-                    cur += 1
-                    zigUp = False
-                else:
-                    cur -= 1
-            else:
-                if cur == numRows - 1:
-                    cur -= 1
-                    zigUp = True
-                else:
-                    cur += 1
-        
         ret = ""
-        for row in rows:
-            ret += row
+        if numRows == 1: 
+            return s
         
-        return ret
+        for r in range(numRows):
+            i = r
+
+            while i < len(s):
+                if r == 0 or r == numRows - 1:
+                    ret += s[i]
+                else:
+                    ret += s[i]
+                    offset = numRows - r + numRows  -  r  - 2
+                    if i + offset < len(s):
+                        ret += s[i+offset]
+                i += numRows + numRows - 2
+                if i == 0:
+                    break
             
-        
+        return ret
+
         
