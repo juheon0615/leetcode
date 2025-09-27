@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/juheon0615/leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/juheon0615/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## String
 |  |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/juheon0615/leetcode/tree/master/0068-text-justification) |
 | [0125-valid-palindrome](https://github.com/juheon0615/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Array
@@ -117,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/juheon0615/leetcode/tree/master/0198-house-robber) |
 | [0256-paint-house](https://github.com/juheon0615/leetcode/tree/master/0256-paint-house) |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
+| [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
 ## Design
 |  |
 | ------- |
