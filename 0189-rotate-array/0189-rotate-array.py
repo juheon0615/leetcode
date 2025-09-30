@@ -3,12 +3,10 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        k = k % len(nums)
-        # print(k)
-        nnums = nums[len(nums) - k:] + nums[0:len(nums) - k]
-        
-        # print(nnums)
+        cache = nums[:]
+
         for i in range(len(nums)):
-            nums[i] = nnums[i]
-        
+            j = (i + k) % len(nums)
+            nums[j] = cache[i]
+
         
