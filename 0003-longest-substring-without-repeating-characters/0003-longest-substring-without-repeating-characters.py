@@ -1,14 +1,18 @@
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        last = {}
-        start = 0
+        seen = {}
+        last = 0
         ret = 0
-        for i,c in enumerate(s):
-            if c in last and last[c] >= start:
-                start = last[c] + 1
+        for i in range(len(s)):
+            if s[i] in seen and seen[s[i]] >= last:
+                last = seen[s[i]] + 1
 
-            last[c] = i
-            ret = max(ret, i - start + 1)
-        
+            seen[s[i]] = i
+            # print("i %d last %d " % (i, last))
+            # print(seen)
+            ret = max(ret, i - last + 1)
         return ret
-                
+
+
+
+        
