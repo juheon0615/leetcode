@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2294-minimum-time-to-complete-trips](https://github.com/juheon0615/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 ## Greedy
 |  |
 | ------- |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/juheon0615/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/juheon0615/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [2294-minimum-time-to-complete-trips](https://github.com/juheon0615/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 ## Divide and Conquer
 |  |
 | ------- |
