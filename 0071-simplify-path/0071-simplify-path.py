@@ -1,25 +1,18 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
-        tokens = path.split("/")
         stack = []
-        
-        for token in tokens:
-            if token == "":
-                continue
-            elif token == ".":
-                continue
-            elif token == "..":
+        parts = path.split("/")
+
+
+        for part in parts:
+            if part == ".":
+                pass
+            elif part == "..":
                 if stack:
-                    stack.pop(-1)
+                    stack.pop()
+            elif part == "":
+                pass
             else:
-                stack.append(token)
+                stack.append(part)
         
-        ret = "/"
-        for i, token in enumerate(stack):
-            if i == len(stack) - 1:
-                ret += token
-            else:
-                ret += token + "/"
-        
-        return ret
-        
+        return "/" + "/".join(stack)
