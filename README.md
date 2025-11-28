@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/juheon0615/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/juheon0615/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2294-minimum-time-to-complete-trips](https://github.com/juheon0615/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
@@ -110,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/juheon0615/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/juheon0615/leetcode/tree/master/0155-min-stack) |
+| [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
 |  |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 ## Trie
 |  |
 | ------- |
