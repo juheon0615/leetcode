@@ -10,10 +10,9 @@ class Solution:
         ret = 0
         while queue:
             # print(queue)
-            curLevel = queue[:]
-            queue = []
+            nextLevel = []
 
-            for cur in curLevel:
+            for cur in queue:
                 if cur == target:
                     return ret
                 
@@ -24,8 +23,9 @@ class Solution:
                         turned = cur[0:i] + str(nith) + cur[i+1: 4]
 
                         if turned not in deadends and turned not in visited:
-                            queue.append(turned)
+                            nextLevel.append(turned)
                             visited.add(turned)
             ret += 1
+            queue = nextLevel
         return -1
         
