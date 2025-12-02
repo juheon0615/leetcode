@@ -1,62 +1,31 @@
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
-        
+        start = "0000"
         queue = []
         visited = set()
-        
-        if "0000" in deadends:
-            return -1
-        
-        queue.append("0000")
-        visited.add("0000")
-        
-        moves = 0
-        found = False
+
+        if start not in deadends:
+            queue.append(start)
+            visited.add("0000")
+        ret = 0
         while queue:
-            nextQueue = []
-            
-            while queue:
-                comb = queue.pop()
-                if comb == target:
-                    found = True
-                    break
-            
+            # print(queue)
+            curLevel = queue[:]
+            queue = []
+
+            for cur in curLevel:
+                if cur == target:
+                    return ret
                 
-                for i, d in enumerate(comb):
-                    dr = dl = d
+                for i in range(4):
+                    turns = [-1, 1]
+                    for t in turns:
+                        nith = (int(cur[i]) + t) % 10
+                        turned = cur[0:i] + str(nith) + cur[i+1: 4]
 
-                    
-                    if d == "9":
-                        dr = "0"
-                        dl = "8"
-                    elif d == "0":
-                        dr = "1"
-                        dl = "9"
-                    else:
-                        dr = str(int(d) + 1)
-                        dl = str(int(d) - 1)
-                    
-                    combRight = comb[:i] + dr + comb[i + 1:]
-                    combLeft = comb[:i] + dl + comb[i + 1:]
-
-
-                    
-                    if combRight not in visited and combRight not in deadends:
-                        nextQueue.append(combRight)
-                        visited.add(combRight)
-                        
-                    if combLeft not in visited and combLeft not in deadends:
-                        nextQueue.append(combLeft)
-                        visited.add(combLeft)
-                                            
-            if found:
-                break
-                
-            queue = nextQueue
-            moves += 1
+                        if turned not in deadends and turned not in visited:
+                            queue.append(turned)
+                            visited.add(turned)
+            ret += 1
+        return -1
         
-        return moves if found else -1
-            
-            
-            
-            
