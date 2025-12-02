@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/juheon0615/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
+| [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Array
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
+| [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/juheon0615/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2294-minimum-time-to-complete-trips](https://github.com/juheon0615/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Sorting
@@ -172,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
+| [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 ## Matrix
 |  |
 | ------- |
