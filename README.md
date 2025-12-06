@@ -131,18 +131,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/juheon0615/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/juheon0615/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/juheon0615/leetcode/tree/master/0437-path-sum-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/juheon0615/leetcode/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/juheon0615/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/juheon0615/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/juheon0615/leetcode/tree/master/0437-path-sum-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/juheon0615/leetcode/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/juheon0615/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/juheon0615/leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0437-path-sum-iii](https://github.com/juheon0615/leetcode/tree/master/0437-path-sum-iii) |
+| [0543-diameter-of-binary-tree](https://github.com/juheon0615/leetcode/tree/master/0543-diameter-of-binary-tree) |
 ## Dynamic Programming
 |  |
 | ------- |
