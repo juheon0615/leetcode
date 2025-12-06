@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/juheon0615/leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 | [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/juheon0615/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/juheon0615/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/juheon0615/leetcode/tree/master/0135-candy) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
+| [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 ## Hash Table
 |  |
 | ------- |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
+| [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Counting
@@ -201,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
+| [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 ## Randomized
 |  |
 | ------- |
