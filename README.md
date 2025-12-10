@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/juheon0615/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/juheon0615/leetcode/tree/master/0189-rotate-array) |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/juheon0615/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/juheon0615/leetcode/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/juheon0615/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/juheon0615/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0256-paint-house](https://github.com/juheon0615/leetcode/tree/master/0256-paint-house) |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/juheon0615/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/juheon0615/leetcode/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/juheon0615/leetcode/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
 | [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 ## Hash Table
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
 | [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -218,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/juheon0615/leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/juheon0615/leetcode/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/juheon0615/leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Monotonic Stack
 |  |
@@ -270,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Bucket Sort
 |  |
