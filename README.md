@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/juheon0615/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
+| [1229-meeting-scheduler](https://github.com/juheon0615/leetcode/tree/master/1229-meeting-scheduler) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## String
 |  |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/juheon0615/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1229-meeting-scheduler](https://github.com/juheon0615/leetcode/tree/master/1229-meeting-scheduler) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2294-minimum-time-to-complete-trips](https://github.com/juheon0615/leetcode/tree/master/2294-minimum-time-to-complete-trips) |
 ## Greedy
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
 | [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
+| [1229-meeting-scheduler](https://github.com/juheon0615/leetcode/tree/master/1229-meeting-scheduler) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 ## Counting
