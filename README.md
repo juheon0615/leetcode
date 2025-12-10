@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/juheon0615/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/juheon0615/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/juheon0615/leetcode/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/juheon0615/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/juheon0615/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
 | [0274-h-index](https://github.com/juheon0615/leetcode/tree/master/0274-h-index) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/juheon0615/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -111,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 ## Stack
 |  |
@@ -245,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 ## Sliding Window
 |  |
 | ------- |
@@ -262,4 +267,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/juheon0615/leetcode/tree/master/0287-find-the-duplicate-number) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
