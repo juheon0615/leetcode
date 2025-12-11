@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/juheon0615/leetcode/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/juheon0615/leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/juheon0615/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
 | [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/juheon0615/leetcode/tree/master/0012-integer-to-roman) |
 | [0146-lru-cache](https://github.com/juheon0615/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/juheon0615/leetcode/tree/master/0169-majority-element) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/juheon0615/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/juheon0615/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/juheon0615/leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/juheon0615/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/juheon0615/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/juheon0615/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/juheon0615/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 ## Recursion
 |  |
 | ------- |
