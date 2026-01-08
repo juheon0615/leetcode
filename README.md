@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/juheon0615/leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/juheon0615/leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0392-is-subsequence](https://github.com/juheon0615/leetcode/tree/master/0392-is-subsequence) |
+| [0402-remove-k-digits](https://github.com/juheon0615/leetcode/tree/master/0402-remove-k-digits) |
 | [0752-open-the-lock](https://github.com/juheon0615/leetcode/tree/master/0752-open-the-lock) |
 | [1777-determine-if-two-strings-are-close](https://github.com/juheon0615/leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/juheon0615/leetcode/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/juheon0615/leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0280-wiggle-sort](https://github.com/juheon0615/leetcode/tree/master/0280-wiggle-sort) |
+| [0402-remove-k-digits](https://github.com/juheon0615/leetcode/tree/master/0402-remove-k-digits) |
 | [0561-array-partition](https://github.com/juheon0615/leetcode/tree/master/0561-array-partition) |
 ## Hash Table
 |  |
@@ -134,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/juheon0615/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/juheon0615/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/juheon0615/leetcode/tree/master/0155-min-stack) |
+| [0402-remove-k-digits](https://github.com/juheon0615/leetcode/tree/master/0402-remove-k-digits) |
 | [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 | [2470-removing-stars-from-a-string](https://github.com/juheon0615/leetcode/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/juheon0615/leetcode/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/juheon0615/leetcode/tree/master/0402-remove-k-digits) |
 | [0739-daily-temperatures](https://github.com/juheon0615/leetcode/tree/master/0739-daily-temperatures) |
 ## Trie
 |  |
