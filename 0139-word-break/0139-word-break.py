@@ -1,24 +1,20 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
-        
-        queue = [0]
-        visited = set()
-        
-        
-        while queue:
-            nextQ = []
-            
-            for cur in queue:
-                if cur == len(s):
-                    return True
-                for word in wordDict:
-                    end = len(word) + cur
-                    # print("%d %d %s" %(cur,end,word))
-                    if end <= len(s) and s[cur:end] == word and end not in visited:
-                        visited.add(end)
-                        nextQ.append(end)
-                # print(nextQ)
-            queue = nextQ
-                
+        dp = [False for i in range(len(s) + 1)]
 
-        return False
+
+        dp[0] = True
+
+        wordSet = set(wordDict)
+        wordLengths = set(len(word) for word in wordDict)
+
+        for i in range(1, len(s) + 1):
+            for l in wordLengths:
+                j = i - l
+                if j >= 0 and dp[j] and s[j:j + l] in wordSet:
+                    dp[i] = True
+                    break
+        return dp[-1]
+        
+
+        
